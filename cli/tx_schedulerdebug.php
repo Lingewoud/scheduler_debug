@@ -233,8 +233,9 @@ function print_usage()
 	echo "\n";
 	echo "Available commands:\n";
 	echo "list                  List all Scheduler Tasks\n";
-	echo "run [id]              Run schedular taks \n";
-	echo "status [id]           Show if job is running or available to start\n";
+	echo "run [id]              Run schedular task \n";
+	echo "stop [id]             Stop schedular task \n";
+	echo "info [id]             Show if job is running or available to start\n";
 }
 
 ?>
