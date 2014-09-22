@@ -12,7 +12,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Scheduler Debugger',
-	'description' => 'Helps debugging single scheduler tasks ignoring frequency.',
+	'description' => 'Helps debugging single scheduler tasks ignoring frequency. see https://github.com/t3labcom/scheduler_debug for usage',
 	'category' => 'misc',
 	'author' => 'Pim Snel',
 	'author_email' => 'pim@lingewoud.nl',
@@ -28,7 +28,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
-	'author_company' => '',
+	'author_company' => 'Lingewoud',
 	'version' => '0.0.0',
 	'constraints' => array(
 		'depends' => array(
